@@ -1,0 +1,99 @@
+[2015-03-28 21:21:26] (ERROR @ /connectorsz/index.php) Could not connect to provider at: modxstore.com
+[2015-04-06 08:12:05] (ERROR @ /connectorsz/index.php) Error caching lexicon topic lexicon/en/core/default
+[2015-04-08 08:16:16] (ERROR @ /connectorsz/index.php) Error caching lexicon topic lexicon/ru/core/default
+[2015-04-13 16:36:25] (ERROR in xPDO::getValue @ /home/srv44784/1001coders.ru/core/xpdo/xpdo.class.php : 1096) Error HY000 executing statement: 
+Array
+(
+    [0] => HY000
+    [1] => 1267
+    [2] => Illegal mix of collations (cp1251_general_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
+)
+
+[2015-04-13 16:36:25] (ERROR in xPDO::getValue @ /home/srv44784/1001coders.ru/core/xpdo/xpdo.class.php : 1096) Error HY000 executing statement: 
+Array
+(
+    [0] => HY000
+    [1] => 1267
+    [2] => Illegal mix of collations (cp1251_general_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
+)
+
+[2015-04-13 16:36:25] (ERROR in xPDO::getValue @ /home/srv44784/1001coders.ru/core/xpdo/xpdo.class.php : 1096) Error HY000 executing statement: 
+Array
+(
+    [0] => HY000
+    [1] => 1267
+    [2] => Illegal mix of collations (cp1251_general_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
+)
+
+[2015-04-18 05:07:20] (ERROR in xPDO::getValue @ /home/srv44784/1001coders.ru/core/xpdo/xpdo.class.php : 1096) Error HY000 executing statement: 
+Array
+(
+    [0] => HY000
+    [1] => 1267
+    [2] => Illegal mix of collations (cp1251_general_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
+)
+
+[2015-04-18 05:07:20] (ERROR in xPDO::getValue @ /home/srv44784/1001coders.ru/core/xpdo/xpdo.class.php : 1096) Error HY000 executing statement: 
+Array
+(
+    [0] => HY000
+    [1] => 1267
+    [2] => Illegal mix of collations (cp1251_general_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
+)
+
+[2015-04-18 05:07:20] (ERROR in xPDO::getValue @ /home/srv44784/1001coders.ru/core/xpdo/xpdo.class.php : 1096) Error HY000 executing statement: 
+Array
+(
+    [0] => HY000
+    [1] => 1267
+    [2] => Illegal mix of collations (cp1251_general_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
+)
+
+[2015-04-21 20:03:56] (ERROR in xPDO::getValue @ /home/srv44784/1001coders.ru/core/xpdo/xpdo.class.php : 1096) Error HY000 executing statement: 
+Array
+(
+    [0] => HY000
+    [1] => 1267
+    [2] => Illegal mix of collations (cp1251_general_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
+)
+
+[2015-04-21 20:03:56] (ERROR in xPDO::getValue @ /home/srv44784/1001coders.ru/core/xpdo/xpdo.class.php : 1096) Error HY000 executing statement: 
+Array
+(
+    [0] => HY000
+    [1] => 1267
+    [2] => Illegal mix of collations (cp1251_general_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
+)
+
+[2015-04-21 20:03:56] (ERROR in xPDO::getValue @ /home/srv44784/1001coders.ru/core/xpdo/xpdo.class.php : 1096) Error HY000 executing statement: 
+Array
+(
+    [0] => HY000
+    [1] => 1267
+    [2] => Illegal mix of collations (cp1251_general_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
+)
+
+[2015-04-22 07:26:20] (ERROR in xPDO::getValue @ /home/srv44784/1001coders.ru/core/xpdo/xpdo.class.php : 1096) Error HY000 executing statement: 
+Array
+(
+    [0] => HY000
+    [1] => 1267
+    [2] => Illegal mix of collations (cp1251_general_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
+)
+
+[2015-04-22 07:26:20] (ERROR in xPDO::getValue @ /home/srv44784/1001coders.ru/core/xpdo/xpdo.class.php : 1096) Error HY000 executing statement: 
+Array
+(
+    [0] => HY000
+    [1] => 1267
+    [2] => Illegal mix of collations (cp1251_general_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
+)
+
+[2015-04-22 07:26:20] (ERROR in xPDO::getValue @ /home/srv44784/1001coders.ru/core/xpdo/xpdo.class.php : 1096) Error HY000 executing statement: 
+Array
+(
+    [0] => HY000
+    [1] => 1267
+    [2] => Illegal mix of collations (cp1251_general_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
+)
+

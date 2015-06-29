@@ -1,0 +1,879 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour start="node1">
+  <panorama id="node1" hideabout="1">
+    <view fovmode="0" pannorth="0">
+      <start pan="359" fov="75" tilt="0"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata title="Холл" datetime="" description="" copyright="" tags="floor_1" author="" source="" comment="" info="" longitude="" latitude=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" textcolor="0x000000" background="1" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+      <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot title="Лестница" target="337/0/90" pan="-121.512" skinid="ActiveZone1" url="{node2}" id="Point01" tilt="-12.7915"/>
+    </hotspots>
+    <media>
+      <video pansize="10" id="_element_0" level="0.9" stretch="1" rotx="0" clickmode="1" roty="0" mode="1" rotz="0" width="640" ambientlevel="0" field="90" pan="-136.42" tilt="-6.89" height="360" loop="10" fov="11.45" tiltsize="10">
+        <source url="Bob_Sinclar_Feat_CeCe_Rogers_I_Want_You_medium_for_tour.mp4"/>
+      </video>
+    </media>
+    <input width="2880" height="2880" leveltilesize="720" levelbias="0.4" overlap="1" leveltileurl="tiles/DSC_1036_7_8 Panorama/c%c_l%r_%y_%x.jpg">
+      <level width="2880" height="2880" preload="1"/>
+      <level width="1440" height="1440" preload="1"/>
+      <level width="360" preview="1" height="360" preload="1"/>
+      <preview color="0x808080"/>
+    </input>
+    <autorotate speed="0.080" nodedelay="180.00" startloaded="1" returntohorizon="10.000" delay="10.00" noderandom="1"/>
+    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="1" invertwheel="0" lockedwheel="1" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+  </panorama>
+  <panorama id="node2" hideabout="1">
+    <view fovmode="0" pannorth="0">
+      <start pan="334" fov="90" tilt="0"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata title="Лестница" datetime="" description="" copyright="" tags="floor_1" author="" source="" comment="" info="" longitude="" latitude=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" textcolor="0x000000" background="1" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+      <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot title="Холл" target="0/0/65" pan="121.717" skinid="ActiveZone_-30" url="{node1}" id="Point01" tilt="-4.36107"/>
+      <hotspot title="Холл второго этажа" target="257/0/65" pan="-66.7076" skinid="ActiveZone1" url="{node8}" id="Point02" tilt="-0.758409"/>
+      <hotspot title="Люкс" target="339/0/65" pan="-1.37021" skinid="ActiveZone_-30" url="{node3}" id="Point03" tilt="-9.10929"/>
+    </hotspots>
+    <media/>
+    <input width="2880" height="2880" leveltilesize="720" levelbias="0.4" overlap="1" leveltileurl="tiles/DSC_1084_5_6 Panorama/c%c_l%r_%y_%x.jpg">
+      <level width="2880" height="2880" preload="1"/>
+      <level width="1440" height="1440" preload="1"/>
+      <level width="360" preview="1" height="360" preload="1"/>
+      <preview color="0x808080"/>
+    </input>
+    <autorotate speed="0.080" nodedelay="180.00" startloaded="1" returntohorizon="10.000" delay="10.00" noderandom="1"/>
+    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="1" invertwheel="0" lockedwheel="1" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+  </panorama>
+  <panorama id="node3" hideabout="1">
+    <view fovmode="0" pannorth="0">
+      <start pan="22" fov="80" tilt="0"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata title="Люкс" datetime="" description="" copyright="" tags="floor_1" author="" source="" comment="" info="" longitude="" latitude=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" textcolor="0x000000" background="1" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+      <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot title="Лестница" target="163.5/0/65" pan="113.989" skinid="ActiveZone_30" url="{node2}" id="Point01" tilt="-8.1336"/>
+      <hotspot title="Гостиная" target="359/0/65" pan="40.7563" skinid="ActiveZone1" url="{node4}" id="Point02" tilt="-7.31379"/>
+      <hotspot title="Спальня" target="67.5/0/65" pan="-30.8007" skinid="ActiveZone1" url="{node7}" id="Point03" tilt="-8.286680000000001"/>
+    </hotspots>
+    <media/>
+    <input width="2880" height="2880" leveltilesize="720" levelbias="0.4" overlap="1" leveltileurl="tiles/DSC_1117_8_9 Panorama/c%c_l%r_%y_%x.jpg">
+      <level width="2880" height="2880" preload="1"/>
+      <level width="1440" height="1440" preload="1"/>
+      <level width="360" preview="1" height="360" preload="1"/>
+      <preview color="0x808080"/>
+    </input>
+    <autorotate speed="0.080" nodedelay="180.00" startloaded="1" returntohorizon="10.000" delay="10.00" noderandom="1"/>
+    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="1" invertwheel="0" lockedwheel="1" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+  </panorama>
+  <panorama id="node4" hideabout="1">
+    <view fovmode="0" pannorth="0">
+      <start pan="10" fov="75" tilt="0"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata title="Гостиная" datetime="" description="" copyright="" tags="floor_1" author="" source="" comment="" info="" longitude="" latitude=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" textcolor="0x000000" background="1" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+      <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot title="Душевая" target="55.5/0/65" pan="-89.59090000000001" skinid="ActiveZone_-30" url="{node5}" id="Point01" tilt="-11.1499"/>
+      <hotspot title="Люкс" target="171/0/65" pan="173.706" skinid="" url="{node3}" id="Point02" tilt="-13.0425"/>
+    </hotspots>
+    <media/>
+    <input width="2880" height="2880" leveltilesize="720" levelbias="0.4" overlap="1" leveltileurl="tiles/DSC_1156_7_8 Panorama/c%c_l%r_%y_%x.jpg">
+      <level width="2880" height="2880" preload="1"/>
+      <level width="1440" height="1440" preload="1"/>
+      <level width="360" preview="1" height="360" preload="1"/>
+      <preview color="0x808080"/>
+    </input>
+    <autorotate speed="0.080" nodedelay="180.00" startloaded="1" returntohorizon="10.000" delay="10.00" noderandom="1"/>
+    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="1" invertwheel="0" lockedwheel="1" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+  </panorama>
+  <panorama id="node5" hideabout="1">
+    <view fovmode="0" pannorth="0">
+      <start pan="75" fov="80" tilt="0"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata title="Душевая" datetime="" description="" copyright="" tags="floor_1" author="" source="" comment="" info="" longitude="" latitude=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" textcolor="0x000000" background="1" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+      <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot title="Гостиная" target="150.5/0/65" pan="137.976" skinid="ActiveZone1" url="{node4}" id="Point01" tilt="-21.3278"/>
+      <hotspot title="Сауна" target="304.5/0/65" pan="73.5814" skinid="ActiveZone_30" url="{node6}" id="Point02" tilt="-13.445"/>
+    </hotspots>
+    <media/>
+    <input width="2880" height="2880" leveltilesize="720" levelbias="0.4" overlap="1" leveltileurl="tiles/DSC_1189_90_91 Panorama/c%c_l%r_%y_%x.jpg">
+      <level width="2880" height="2880" preload="1"/>
+      <level width="1440" height="1440" preload="1"/>
+      <level width="360" preview="1" height="360" preload="1"/>
+      <preview color="0x808080"/>
+    </input>
+    <autorotate speed="0.080" nodedelay="180.00" startloaded="1" returntohorizon="10.000" delay="10.00" noderandom="1"/>
+    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="1" invertwheel="0" lockedwheel="1" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+  </panorama>
+  <panorama id="node6" hideabout="1">
+    <view fovmode="0" pannorth="0">
+      <start pan="133" fov="80" tilt="0"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata title="Сауна" datetime="" description="" copyright="" tags="floor_1" author="" source="" comment="" info="" longitude="" latitude=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" textcolor="0x000000" background="1" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+      <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot title="Душевая" target="172.5/0/65" pan="-8.44436" skinid="ActiveZone_-30" url="{node5}" id="Point01" tilt="-6.05221"/>
+    </hotspots>
+    <media/>
+    <input width="2880" height="2880" leveltilesize="720" levelbias="0.4" overlap="1" leveltileurl="tiles/DSC_1222_3_4 Panorama/c%c_l%r_%y_%x.jpg">
+      <level width="2880" height="2880" preload="1"/>
+      <level width="1440" height="1440" preload="1"/>
+      <level width="360" preview="1" height="360" preload="1"/>
+      <preview color="0x808080"/>
+    </input>
+    <autorotate speed="0.080" nodedelay="180.00" startloaded="1" returntohorizon="10.000" delay="10.00" noderandom="1"/>
+    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="1" invertwheel="0" lockedwheel="1" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+  </panorama>
+  <panorama id="node7" hideabout="1">
+    <view fovmode="0" pannorth="0">
+      <start pan="63" fov="75" tilt="0"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata title="Комната" datetime="" description="" copyright="" tags="floor_1" author="" source="" comment="" info="" longitude="" latitude=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" textcolor="0x000000" background="1" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+      <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot title="" target="114.5/0/65" pan="140.275" skinid="ActiveZone1" url="{node3}" id="Point01" tilt="-8.43764"/>
+    </hotspots>
+    <media/>
+    <input width="2880" height="2880" leveltilesize="720" levelbias="0.4" overlap="1" leveltileurl="tiles/DSC_1255_6_7 Panorama/c%c_l%r_%y_%x.jpg">
+      <level width="2880" height="2880" preload="1"/>
+      <level width="1440" height="1440" preload="1"/>
+      <level width="360" preview="1" height="360" preload="1"/>
+      <preview color="0x808080"/>
+    </input>
+    <autorotate speed="0.080" nodedelay="180.00" startloaded="1" returntohorizon="10.000" delay="10.00" noderandom="1"/>
+    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="1" invertwheel="0" lockedwheel="1" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+  </panorama>
+  <panorama id="node8" hideabout="1">
+    <view fovmode="0" pannorth="0">
+      <start pan="258" fov="75" tilt="0"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata title="Холл 2-ой этаж" datetime="" description="" copyright="" tags="floor_2" author="" source="" comment="" info="" longitude="" latitude=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" textcolor="0x000000" background="1" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+      <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot title="Лестница 1-й этаж" target="129/0/65" pan="41.9386" skinid="ActiveZone_150" url="{node2}" id="Point01" tilt="-10.9829"/>
+      <hotspot title="Номера 201-214" target="0/0/65" pan="-110.934" skinid="ActiveZone_-30" url="{node9}" id="Point02" tilt="1.48926"/>
+      <hotspot title="Номер 215" target="8.5/0/65" pan="-84.7933" skinid="ActiveZone_-30" url="{node15}" id="Point03" tilt="-2.70622"/>
+    </hotspots>
+    <media/>
+    <input width="2880" height="2880" leveltilesize="720" levelbias="0.4" overlap="1" leveltileurl="tiles/DSC_1291_2_3 Panorama/c%c_l%r_%y_%x.jpg">
+      <level width="2880" height="2880" preload="1"/>
+      <level width="1440" height="1440" preload="1"/>
+      <level width="360" preview="1" height="360" preload="1"/>
+      <preview color="0x808080"/>
+    </input>
+    <autorotate speed="0.080" nodedelay="180.00" startloaded="1" returntohorizon="10.000" delay="10.00" noderandom="1"/>
+    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="1" invertwheel="0" lockedwheel="1" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+  </panorama>
+  <panorama id="node9" hideabout="1">
+    <view fovmode="0" pannorth="0">
+      <start pan="0" fov="80" tilt="0"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata title="Коридор 1" datetime="" description="" copyright="" tags="floor_2" author="" source="" comment="" info="" longitude="" latitude=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" textcolor="0x000000" background="1" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+      <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot title="Коридор" target="0/0/65" pan="0" skinid="ActiveZone1" url="{node10}" id="Point01" tilt="-9.202730000000001"/>
+      <hotspot title="Холл второго этажа" target="37/0/65" pan="-151.036" skinid="ActiveZone_30" url="{node8}" id="Point02" tilt="-17.0558"/>
+      <hotspot title="Номер 201" target="0/0/65" pan="-83.4524" skinid="ActiveZone_30" url="{node13}" id="Point03" tilt="-11.5721"/>
+      <hotspot title="Номер 214" target="9/0/65" pan="96.06780000000001" skinid="ActiveZone1" url="{node17}" id="Point04" tilt="-13.916"/>
+      <hotspot title="Номер 213" target="0/0/65" pan="23.0239" skinid="ActiveZone_-30" url="{node19}" id="Point05" tilt="-8.381919999999999"/>
+    </hotspots>
+    <media/>
+    <input width="2880" height="2880" leveltilesize="720" levelbias="0.4" overlap="1" leveltileurl="tiles/DSC_1405_6_7 Panorama/c%c_l%r_%y_%x.jpg">
+      <level width="2880" height="2880" preload="1"/>
+      <level width="1440" height="1440" preload="1"/>
+      <level width="360" preview="1" height="360" preload="1"/>
+      <preview color="0x808080"/>
+    </input>
+    <autorotate speed="0.080" nodedelay="180.00" startloaded="1" returntohorizon="10.000" delay="10.00" noderandom="1"/>
+    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="1" invertwheel="0" lockedwheel="1" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+  </panorama>
+  <panorama id="node10" hideabout="1">
+    <view fovmode="0" pannorth="0">
+      <start pan="13" fov="80" tilt="0"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata title="Коридор 2" datetime="" description="" copyright="" tags="floor_2" author="" source="" comment="" info="" longitude="" latitude=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" textcolor="0x000000" background="1" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+      <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot title="Коридор" target="0/0/65" pan="0.0280094" skinid="ActiveZone1" url="{node11}" id="Point01" tilt="-7.97191"/>
+      <hotspot title="Коридор" target="195.5/0/65" pan="179.145" skinid="ActiveZone1" url="{node9}" id="Point02" tilt="-14.2628"/>
+      <hotspot title="Номер 211" target="0/0/65" pan="45.9159" skinid="ActiveZone_-30" url="{node21}" id="Point03" tilt="-13.9475"/>
+      <hotspot title="Номер 202" target="347/0/80" pan="-152.392" skinid="ActiveZone_-30" url="{node31}" id="Point04" tilt="-7.86459"/>
+      <hotspot title="Номер 203" target="183/0/80" pan="-26.6427" skinid="ActiveZone_-30" url="{node33}" id="Point05" tilt="-5.44263"/>
+    </hotspots>
+    <media/>
+    <input width="2880" height="2880" leveltilesize="720" levelbias="0.4" overlap="1" leveltileurl="tiles/DSC_1438_39_40 Panorama/c%c_l%r_%y_%x.jpg">
+      <level width="2880" height="2880" preload="1"/>
+      <level width="1440" height="1440" preload="1"/>
+      <level width="360" preview="1" height="360" preload="1"/>
+      <preview color="0x808080"/>
+    </input>
+    <autorotate speed="0.080" nodedelay="180.00" startloaded="1" returntohorizon="10.000" delay="10.00" noderandom="1"/>
+    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="1" invertwheel="0" lockedwheel="1" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+  </panorama>
+  <panorama id="node11" hideabout="1">
+    <view fovmode="0" pannorth="0">
+      <start pan="10" fov="80" tilt="0"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata title="Коридор 3" datetime="" description="" copyright="" tags="floor_2" author="" source="" comment="" info="" longitude="" latitude=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" textcolor="0x000000" background="1" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+      <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot title="Коридор" target="358.5/0/65" pan="-0.157333" skinid="ActiveZone1" url="{node12}" id="Point01" tilt="-12.6897"/>
+      <hotspot title="Коридор" target="181.5/-3.5/65" pan="178.25" skinid="ActiveZone1" url="{node10}" id="Point02" tilt="-16.7502"/>
+      <hotspot title="Номер 205" target="0/0/65" pan="-26.4998" skinid="ActiveZone_-30" url="{node29}" id="Point03" tilt="-4.43619"/>
+      <hotspot title="Номер 209" target="185/0/80" pan="44.6582" skinid="ActiveZone_-30" url="{node35}" id="Point04" tilt="-12.3264"/>
+      <hotspot title="Номер 210" target="90/0/80" pan="139.327" skinid="ActiveZone_30" url="{node37}" id="Point05" tilt="-9.9314"/>
+    </hotspots>
+    <media/>
+    <input width="2880" height="2880" leveltilesize="720" levelbias="0.4" overlap="1" leveltileurl="tiles/DSC_1471_2_3 Panorama/c%c_l%r_%y_%x.jpg">
+      <level width="2880" height="2880" preload="1"/>
+      <level width="1440" height="1440" preload="1"/>
+      <level width="360" preview="1" height="360" preload="1"/>
+      <preview color="0x808080"/>
+    </input>
+    <autorotate speed="0.080" nodedelay="180.00" startloaded="1" returntohorizon="10.000" delay="10.00" noderandom="1"/>
+    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="1" invertwheel="0" lockedwheel="1" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+  </panorama>
+  <panorama id="node12" hideabout="1">
+    <view fovmode="0" pannorth="0">
+      <start pan="15" fov="80" tilt="0"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata title="Коридор 4" datetime="" description="" copyright="" tags="floor_2" author="" source="" comment="" info="" longitude="" latitude=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" textcolor="0x000000" background="1" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+      <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot title="Коридор" target="178/0/65" pan="-175.272" skinid="ActiveZone1" url="{node11}" id="Point01" tilt="-12.6957"/>
+      <hotspot title="Номер 208" target="2.5/0/65" pan="141.65" skinid="ActiveZone_30" url="{node23}" id="Point02" tilt="-6.73395"/>
+      <hotspot title="Номер 207" target="278.5/0/65" pan="46.9597" skinid="ActiveZone_-30" url="{node25}" id="Point03" tilt="-8.273490000000001"/>
+      <hotspot title="Номер 206" target="0/0/65" pan="-106.901" skinid="ActiveZone1" url="{node27}" id="Point04" tilt="-8.819649999999999"/>
+    </hotspots>
+    <media/>
+    <input width="2880" height="2880" leveltilesize="720" levelbias="0.4" overlap="1" leveltileurl="tiles/DSC_1510_1_2 Panorama/c%c_l%r_%y_%x.jpg">
+      <level width="2880" height="2880" preload="1"/>
+      <level width="1440" height="1440" preload="1"/>
+      <level width="360" preview="1" height="360" preload="1"/>
+      <preview color="0x808080"/>
+    </input>
+    <autorotate speed="0.080" nodedelay="180.00" startloaded="1" returntohorizon="10.000" delay="10.00" noderandom="1"/>
+    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="1" invertwheel="0" lockedwheel="1" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+  </panorama>
+  <panorama id="node13" hideabout="1">
+    <view fovmode="0" pannorth="0">
+      <start pan="0" fov="80" tilt="0"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata title="Номер 201" datetime="" description="" copyright="" tags="floor_2" author="" source="" comment="" info="" longitude="" latitude=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" textcolor="0x000000" background="1" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+      <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot title="Душевая" target="2.5/0/65" pan="-130.126" skinid="ActiveZone_-30" url="{node14}" id="Point01" tilt="-12.8454"/>
+      <hotspot title="Коридор" target="62.5/0/65" pan="-172.029" skinid="ActiveZone1" url="{node9}" id="Point02" tilt="-7.53519"/>
+    </hotspots>
+    <media/>
+    <input width="2880" height="2880" leveltilesize="720" levelbias="0.4" overlap="1" leveltileurl="tiles/DSC_2080_1_2 Panorama/c%c_l%r_%y_%x.jpg">
+      <level width="2880" height="2880" preload="1"/>
+      <level width="1440" height="1440" preload="1"/>
+      <level width="360" preview="1" height="360" preload="1"/>
+      <preview color="0x808080"/>
+    </input>
+    <autorotate speed="0.080" nodedelay="180.00" startloaded="1" returntohorizon="10.000" delay="10.00" noderandom="1"/>
+    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="1" invertwheel="0" lockedwheel="1" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+  </panorama>
+  <panorama id="node14" hideabout="1">
+    <view fovmode="0" pannorth="0">
+      <start pan="0" fov="80" tilt="0"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata title="Душевая 201" datetime="" description="" copyright="" tags="floor_2" author="" source="" comment="" info="" longitude="" latitude=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" textcolor="0x000000" background="1" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+      <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot title="Номер" target="95.5/0/65" pan="99.5043" skinid="ActiveZone_30" url="{node13}" id="Point01" tilt="-9.36774"/>
+    </hotspots>
+    <media/>
+    <input width="2880" height="2880" leveltilesize="720" levelbias="0.4" overlap="1" leveltileurl="tiles/DSC_2119_20_21 Panorama/c%c_l%r_%y_%x.jpg">
+      <level width="2880" height="2880" preload="1"/>
+      <level width="1440" height="1440" preload="1"/>
+      <level width="360" preview="1" height="360" preload="1"/>
+      <preview color="0x808080"/>
+    </input>
+    <autorotate speed="0.080" nodedelay="180.00" startloaded="1" returntohorizon="10.000" delay="10.00" noderandom="1"/>
+    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="1" invertwheel="0" lockedwheel="1" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+  </panorama>
+  <panorama id="node15" hideabout="1">
+    <view fovmode="0" pannorth="0">
+      <start pan="340" fov="80" tilt="0"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata title="Номер 215" datetime="" description="" copyright="" tags="floor_2" author="" source="" comment="" info="" longitude="" latitude=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" textcolor="0x000000" background="1" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+      <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot title="Холл второго этажа" target="54.5/0/65" pan="-176.839" skinid="ActiveZone1" url="{node8}" id="Point01" tilt="-7.14427"/>
+      <hotspot title="Душевая" target="6/0/65" pan="119.385" skinid="ActiveZone_-30" url="{node16}" id="Point02" tilt="-4.87227"/>
+    </hotspots>
+    <media/>
+    <input width="2880" height="2880" leveltilesize="720" levelbias="0.4" overlap="1" leveltileurl="tiles/DSC_1333_4_5 Panorama/c%c_l%r_%y_%x.jpg">
+      <level width="2880" height="2880" preload="1"/>
+      <level width="1440" height="1440" preload="1"/>
+      <level width="360" preview="1" height="360" preload="1"/>
+      <preview color="0x808080"/>
+    </input>
+    <autorotate speed="0.080" nodedelay="180.00" startloaded="1" returntohorizon="10.000" delay="10.00" noderandom="1"/>
+    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="1" invertwheel="0" lockedwheel="1" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+  </panorama>
+  <panorama id="node16" hideabout="1">
+    <view fovmode="0" pannorth="0">
+      <start pan="280" fov="80" tilt="0"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata title="Душевая 215" datetime="" description="" copyright="" tags="floor_2" author="" source="" comment="" info="" longitude="" latitude=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" textcolor="0x000000" background="1" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+      <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot title="Номер" target="292.5/0/65" pan="-143.355" skinid="ActiveZone_30" url="{node15}" id="Point01" tilt="-14.748"/>
+    </hotspots>
+    <media/>
+    <input width="2880" height="2880" leveltilesize="720" levelbias="0.4" overlap="1" leveltileurl="tiles/DSC_1372_3_4 Panorama/c%c_l%r_%y_%x.jpg">
+      <level width="2880" height="2880" preload="1"/>
+      <level width="1440" height="1440" preload="1"/>
+      <level width="360" preview="1" height="360" preload="1"/>
+      <preview color="0x808080"/>
+    </input>
+    <autorotate speed="0.080" nodedelay="180.00" startloaded="1" returntohorizon="10.000" delay="10.00" noderandom="1"/>
+    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="1" invertwheel="0" lockedwheel="1" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+  </panorama>
+  <panorama id="node17" hideabout="1">
+    <view fovmode="0" pannorth="0">
+      <start pan="15" fov="80" tilt="0"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata title="Номер 214" datetime="" description="" copyright="" tags="floor_2" author="" source="" comment="" info="" longitude="" latitude=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" textcolor="0x000000" background="1" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+      <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot title="Коридор" target="232/0/65" pan="173.771" skinid="ActiveZone1" url="{node9}" id="Point01" tilt="-5.56579"/>
+      <hotspot title="Душевая" target="5/0/65" pan="140.999" skinid="ActiveZone_30" url="{node18}" id="Point02" tilt="-10.7818"/>
+    </hotspots>
+    <media/>
+    <input width="2880" height="2880" leveltilesize="720" levelbias="0.4" overlap="1" leveltileurl="tiles/DSC_1543_4_5 Panorama/c%c_l%r_%y_%x.jpg">
+      <level width="2880" height="2880" preload="1"/>
+      <level width="1440" height="1440" preload="1"/>
+      <level width="360" preview="1" height="360" preload="1"/>
+      <preview color="0x808080"/>
+    </input>
+    <autorotate speed="0.080" nodedelay="180.00" startloaded="1" returntohorizon="10.000" delay="10.00" noderandom="1"/>
+    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="1" invertwheel="0" lockedwheel="1" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+  </panorama>
+  <panorama id="node18" hideabout="1">
+    <view fovmode="0" pannorth="0">
+      <start pan="15" fov="80" tilt="0"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata title="Душевая 214" datetime="" description="" copyright="" tags="floor_2" author="" source="" comment="" info="" longitude="" latitude=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" textcolor="0x000000" background="1" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+      <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot title="Номер" target="308.5/0/65" pan="-79.46850000000001" skinid="ActiveZone_-30" url="{node17}" id="Point01" tilt="-18.0136"/>
+    </hotspots>
+    <media/>
+    <input width="2880" height="2880" leveltilesize="720" levelbias="0.4" overlap="1" leveltileurl="tiles/DSC_1579_80_81 Panorama/c%c_l%r_%y_%x.jpg">
+      <level width="2880" height="2880" preload="1"/>
+      <level width="1440" height="1440" preload="1"/>
+      <level width="360" preview="1" height="360" preload="1"/>
+      <preview color="0x808080"/>
+    </input>
+    <autorotate speed="0.080" nodedelay="180.00" startloaded="1" returntohorizon="10.000" delay="10.00" noderandom="1"/>
+    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="1" invertwheel="0" lockedwheel="1" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+  </panorama>
+  <panorama id="node19" hideabout="1">
+    <view fovmode="0" pannorth="0">
+      <start pan="0" fov="80" tilt="0"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata title="Номер 213" datetime="" description="" copyright="" tags="floor_2" author="" source="" comment="" info="" longitude="" latitude=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" textcolor="0x000000" background="1" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+      <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot title="Коридор" target="221/0/65" pan="-163.651" skinid="ActiveZone1" url="{node9}" id="Point01" tilt="-4.36947"/>
+      <hotspot title="Душевая" target="9.5/0/65" pan="-145.497" skinid="ActiveZone_-30" url="{node20}" id="Point02" tilt="-9.95875"/>
+    </hotspots>
+    <media/>
+    <input width="2880" height="2880" leveltilesize="720" levelbias="0.4" overlap="1" leveltileurl="tiles/DSC_2011_2_3 Panorama/c%c_l%r_%y_%x.jpg">
+      <level width="2880" height="2880" preload="1"/>
+      <level width="1440" height="1440" preload="1"/>
+      <level width="360" preview="1" height="360" preload="1"/>
+      <preview color="0x808080"/>
+    </input>
+    <autorotate speed="0.080" nodedelay="180.00" startloaded="1" returntohorizon="10.000" delay="10.00" noderandom="1"/>
+    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="1" invertwheel="0" lockedwheel="1" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+  </panorama>
+  <panorama id="node20" hideabout="1">
+    <view fovmode="0" pannorth="0">
+      <start pan="335" fov="80" tilt="0"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata title="Душевая 213" datetime="" description="" copyright="" tags="floor_2" author="" source="" comment="" info="" longitude="" latitude=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" textcolor="0x000000" background="1" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+      <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot title="Номер" target="348.5/0/65" pan="59.7212" skinid="ActiveZone_30" url="{node19}" id="Point01" tilt="-1.29933"/>
+    </hotspots>
+    <media/>
+    <input width="2880" height="2880" leveltilesize="720" levelbias="0.4" overlap="1" leveltileurl="tiles/DSC_2047_8_9 Panorama/c%c_l%r_%y_%x.jpg">
+      <level width="2880" height="2880" preload="1"/>
+      <level width="1440" height="1440" preload="1"/>
+      <level width="360" preview="1" height="360" preload="1"/>
+      <preview color="0x808080"/>
+    </input>
+    <autorotate speed="0.080" nodedelay="180.00" startloaded="1" returntohorizon="10.000" delay="10.00" noderandom="1"/>
+    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="1" invertwheel="0" lockedwheel="1" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+  </panorama>
+  <panorama id="node21" hideabout="1">
+    <view fovmode="0" pannorth="0">
+      <start pan="0" fov="80" tilt="0"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata title="Номер 211" datetime="" description="" copyright="" tags="floor_2" author="" source="" comment="" info="" longitude="" latitude=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" textcolor="0x000000" background="1" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+      <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot title="Коридор" target="181.5/0/65" pan="-164.667" skinid="ActiveZone1" url="{node10}" id="Point01" tilt="-4.88099"/>
+      <hotspot title="Душевая" target="7.5/0/65" pan="-141.925" skinid="ActiveZone_-30" url="{node22}" id="Point02" tilt="-9.57286"/>
+    </hotspots>
+    <media/>
+    <input width="2880" height="2880" leveltilesize="720" levelbias="0.4" overlap="1" leveltileurl="tiles/DSC_1816_7_8 Panorama/c%c_l%r_%y_%x.jpg">
+      <level width="2880" height="2880" preload="1"/>
+      <level width="1440" height="1440" preload="1"/>
+      <level width="360" preview="1" height="360" preload="1"/>
+      <preview color="0x808080"/>
+    </input>
+    <autorotate speed="0.080" nodedelay="180.00" startloaded="1" returntohorizon="10.000" delay="10.00" noderandom="1"/>
+    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="1" invertwheel="0" lockedwheel="1" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+  </panorama>
+  <panorama id="node22" hideabout="1">
+    <view fovmode="0" pannorth="0">
+      <start pan="0" fov="80" tilt="0"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata title="Душевая 211" datetime="" description="" copyright="" tags="floor_2" author="" source="" comment="" info="" longitude="" latitude=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" textcolor="0x000000" background="1" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+      <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot title="Номер" target="42.5/0/65" pan="80.2307" skinid="ActiveZone_30" url="{node21}" id="Point01" tilt="-6.3482"/>
+    </hotspots>
+    <media/>
+    <input width="2880" height="2880" leveltilesize="720" levelbias="0.4" overlap="1" leveltileurl="tiles/DSC_1864_5_6 Panorama/c%c_l%r_%y_%x.jpg">
+      <level width="2880" height="2880" preload="1"/>
+      <level width="1440" height="1440" preload="1"/>
+      <level width="360" preview="1" height="360" preload="1"/>
+      <preview color="0x808080"/>
+    </input>
+    <autorotate speed="0.080" nodedelay="180.00" startloaded="1" returntohorizon="10.000" delay="10.00" noderandom="1"/>
+    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="1" invertwheel="0" lockedwheel="1" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+  </panorama>
+  <panorama id="node23" hideabout="1">
+    <view fovmode="0" pannorth="0">
+      <start pan="0" fov="80" tilt="0"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata title="Номер 208" datetime="" description="" copyright="" tags="floor_2" author="" source="" comment="" info="" longitude="" latitude=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" textcolor="0x000000" background="1" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+      <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot title="Душевая" target="2.5/0/65" pan="140.164" skinid="ActiveZone_30" url="{node24}" id="Point01" tilt="-10.4109"/>
+      <hotspot title="Коридор" target="182.5/0/65" pan="165.029" skinid="ActiveZone1" url="{node12}" id="Point02" tilt="-4.90831"/>
+    </hotspots>
+    <media/>
+    <input width="2880" height="2880" leveltilesize="720" levelbias="0.4" overlap="1" leveltileurl="tiles/DSC_1747_8_9 Panorama_preview/c%c_l%r_%y_%x.jpg">
+      <level width="2880" height="2880" preload="1"/>
+      <level width="1440" height="1440" preload="1"/>
+      <level width="360" preview="1" height="360" preload="1"/>
+      <preview color="0x808080"/>
+    </input>
+    <autorotate speed="0.080" nodedelay="180.00" startloaded="1" returntohorizon="10.000" delay="10.00" noderandom="1"/>
+    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="1" invertwheel="0" lockedwheel="1" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+  </panorama>
+  <panorama id="node24" hideabout="1">
+    <view fovmode="0" pannorth="0">
+      <start pan="0" fov="80" tilt="0"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata title="Душевая 208" datetime="" description="" copyright="" tags="floor_2" author="" source="" comment="" info="" longitude="" latitude=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" textcolor="0x000000" background="1" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+      <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot title="Номер" target="2.5/0/65" pan="-80.0163" skinid="ActiveZone_-30" url="{node23}" id="Point01" tilt="-1.20312"/>
+    </hotspots>
+    <media/>
+    <input width="2880" height="2880" leveltilesize="720" levelbias="0.4" overlap="1" leveltileurl="tiles/DSC_1777_8_9 Panorama_preview/c%c_l%r_%y_%x.jpg">
+      <level width="2880" height="2880" preload="1"/>
+      <level width="1440" height="1440" preload="1"/>
+      <level width="360" preview="1" height="360" preload="1"/>
+      <preview color="0x808080"/>
+    </input>
+    <autorotate speed="0.080" nodedelay="180.00" startloaded="1" returntohorizon="10.000" delay="10.00" noderandom="1"/>
+    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="1" invertwheel="0" lockedwheel="1" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+  </panorama>
+  <panorama id="node25" hideabout="1">
+    <view fovmode="0" pannorth="0">
+      <start pan="275" fov="80" tilt="0"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata title="Номер 207" datetime="" description="" copyright="" tags="floor_2" author="" source="" comment="" info="" longitude="" latitude=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" textcolor="0x000000" background="1" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+      <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot title="Коридор" target="184/0/65" pan="112.215" skinid="" url="{node12}" id="Point01" tilt="-5.0424"/>
+      <hotspot title="Душевая" target="" pan="138.328" skinid="ActiveZone_-30" url="{node26}" id="Point02" tilt="-7.10939"/>
+    </hotspots>
+    <media/>
+    <input width="2880" height="2880" leveltilesize="720" levelbias="0.4" overlap="1" leveltileurl="tiles/DSC_1684_5_6 Panorama/c%c_l%r_%y_%x.jpg">
+      <level width="2880" height="2880" preload="1"/>
+      <level width="1440" height="1440" preload="1"/>
+      <level width="360" preview="1" height="360" preload="1"/>
+      <preview color="0x808080"/>
+    </input>
+    <autorotate speed="0.080" nodedelay="180.00" startloaded="1" returntohorizon="10.000" delay="10.00" noderandom="1"/>
+    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="1" invertwheel="0" lockedwheel="1" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+  </panorama>
+  <panorama id="node26" hideabout="1">
+    <view fovmode="0" pannorth="0">
+      <start pan="0" fov="80" tilt="0"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata title="Душевая 207" datetime="" description="" copyright="" tags="floor_2" author="" source="" comment="" info="" longitude="" latitude=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" textcolor="0x000000" background="1" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+      <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot title="Номер" target="356.5/-5/65" pan="79.96590000000001" skinid="ActiveZone_30" url="{node26}" id="Point01" tilt="-1.29577"/>
+    </hotspots>
+    <media/>
+    <input width="2880" height="2880" leveltilesize="720" levelbias="0.4" overlap="1" leveltileurl="tiles/DSC_1714_5_6 Panorama/c%c_l%r_%y_%x.jpg">
+      <level width="2880" height="2880" preload="1"/>
+      <level width="1440" height="1440" preload="1"/>
+      <level width="360" preview="1" height="360" preload="1"/>
+      <preview color="0x808080"/>
+    </input>
+    <autorotate speed="0.080" nodedelay="180.00" startloaded="1" returntohorizon="10.000" delay="10.00" noderandom="1"/>
+    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="1" invertwheel="0" lockedwheel="1" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+  </panorama>
+  <panorama id="node27" hideabout="1">
+    <view fovmode="0" pannorth="0">
+      <start pan="0" fov="80" tilt="0"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata title="Номер 206" datetime="" description="" copyright="" tags="floor_2" author="" source="" comment="" info="" longitude="" latitude=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" textcolor="0x000000" background="1" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+      <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot title="Душевая" target="353.5/0/65" pan="139.08" skinid="ActiveZone_30" url="{node28}" id="Point01" tilt="-5.85413"/>
+      <hotspot title="Коридор" target="218.5/0/65" pan="175.253" skinid="ActiveZone1" url="{node12}" id="Point02" tilt="-3.15454"/>
+    </hotspots>
+    <media/>
+    <input width="2880" height="2880" leveltilesize="720" levelbias="0.4" overlap="1" leveltileurl="tiles/DSC_1615_6_7 Panorama/c%c_l%r_%y_%x.jpg">
+      <level width="2880" height="2880" preload="1"/>
+      <level width="1440" height="1440" preload="1"/>
+      <level width="360" preview="1" height="360" preload="1"/>
+      <preview color="0x808080"/>
+    </input>
+    <autorotate speed="0.080" nodedelay="180.00" startloaded="1" returntohorizon="10.000" delay="10.00" noderandom="1"/>
+    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="1" invertwheel="0" lockedwheel="1" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+  </panorama>
+  <panorama id="node28" hideabout="1">
+    <view fovmode="0" pannorth="0">
+      <start pan="0" fov="80" tilt="0"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata title="Душевая 206" datetime="" description="" copyright="" tags="floor_2" author="" source="" comment="" info="" longitude="" latitude=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" textcolor="0x000000" background="1" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+      <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot title="Номер" target="332/0/65" pan="-78.9374" skinid="ActiveZone_-30" url="{node27}" id="Point01" tilt="-3.23393"/>
+    </hotspots>
+    <media/>
+    <input width="2880" height="2880" leveltilesize="720" levelbias="0.4" overlap="1" leveltileurl="tiles/DSC_1651_2_3 Panorama/c%c_l%r_%y_%x.jpg">
+      <level width="2880" height="2880" preload="1"/>
+      <level width="1440" height="1440" preload="1"/>
+      <level width="360" preview="1" height="360" preload="1"/>
+      <preview color="0x808080"/>
+    </input>
+    <autorotate speed="0.080" nodedelay="180.00" startloaded="1" returntohorizon="10.000" delay="10.00" noderandom="1"/>
+    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="1" invertwheel="0" lockedwheel="1" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+  </panorama>
+  <panorama id="node29" hideabout="1">
+    <view fovmode="0" pannorth="0">
+      <start pan="0" fov="80" tilt="0"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata title="Номер 205" datetime="" description="" copyright="" tags="floor_2" author="" source="" comment="" info="" longitude="" latitude=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" textcolor="0x000000" background="1" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+      <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot title="Коридор" target="183/0/65" pan="-157.721" skinid="" url="{node11}" id="Point01" tilt="-3.89035"/>
+      <hotspot title="Душевая" target="358.5/0/65" pan="-133.453" skinid="ActiveZone_-30" url="{node30}" id="Point02" tilt="-11.2163"/>
+    </hotspots>
+    <media/>
+    <input width="2880" height="2880" leveltilesize="720" levelbias="0.4" overlap="1" leveltileurl="tiles/DSC_1903_4_5 Panorama/c%c_l%r_%y_%x.jpg">
+      <level width="2880" height="2880" preload="1"/>
+      <level width="1440" height="1440" preload="1"/>
+      <level width="360" preview="1" height="360" preload="1"/>
+      <preview color="0x808080"/>
+    </input>
+    <autorotate speed="0.080" nodedelay="180.00" startloaded="1" returntohorizon="10.000" delay="10.00" noderandom="1"/>
+    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="1" invertwheel="0" lockedwheel="1" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+  </panorama>
+  <panorama id="node30" hideabout="1">
+    <view fovmode="0" pannorth="0">
+      <start pan="5" fov="80" tilt="0"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata title="Душевая 205" datetime="" description="" copyright="" tags="floor_2" author="" source="" comment="" info="" longitude="" latitude=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" textcolor="0x000000" background="1" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+      <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot title="Номер" target="12.5/0/65" pan="79.6953" skinid="ActiveZone_30" url="{node29}" id="Point01" tilt="-2.52672"/>
+    </hotspots>
+    <media/>
+    <input width="2880" height="2880" leveltilesize="720" levelbias="0.4" overlap="1" leveltileurl="tiles/DSC_1972_3_4 Panorama/c%c_l%r_%y_%x.jpg">
+      <level width="2880" height="2880" preload="1"/>
+      <level width="1440" height="1440" preload="1"/>
+      <level width="360" preview="1" height="360" preload="1"/>
+      <preview color="0x808080"/>
+    </input>
+    <autorotate speed="0.080" nodedelay="180.00" startloaded="1" returntohorizon="10.000" delay="10.00" noderandom="1"/>
+    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="1" invertwheel="0" lockedwheel="1" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+  </panorama>
+  <panorama id="node31" hideabout="1">
+    <view fovmode="0" pannorth="0">
+      <start pan="9" fov="80" tilt="0"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata title="Номер 202" datetime="" description="" copyright="" tags="floor_2" author="" source="" comment="" info="" longitude="" latitude=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" textcolor="0x000000" background="1" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+      <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot title="Коридор" target="182.5/0/80" pan="-176.087" skinid="ActiveZone1" url="{node10}" id="Point01" tilt="-2.466"/>
+      <hotspot title="Душевая" target="160/0/80" pan="-147.782" skinid="ActiveZone_-30" url="{node32}" id="Point02" tilt="-3.74254"/>
+    </hotspots>
+    <media/>
+    <input width="2880" height="2880" leveltilesize="720" levelbias="0.4" overlap="1" leveltileurl="tiles/Set12my_preset_Orange_from_interion_23from_DSC_2234 Panorama/c%c_l%r_%y_%x.jpg">
+      <level width="2880" height="2880" preload="1"/>
+      <level width="1440" height="1440" preload="1"/>
+      <level width="360" preview="1" height="360" preload="1"/>
+      <preview color="0x808080"/>
+    </input>
+    <autorotate speed="0.080" nodedelay="180.00" startloaded="1" returntohorizon="10.000" delay="10.00" noderandom="1"/>
+    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="1" invertwheel="0" lockedwheel="1" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+  </panorama>
+  <panorama id="node32" hideabout="1">
+    <view fovmode="0" pannorth="0">
+      <start pan="160" fov="80" tilt="0"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata title="Душевая 202" datetime="" description="" copyright="" tags="floor_2" author="" source="" comment="" info="" longitude="" latitude=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" textcolor="0x000000" background="1" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+      <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot title="Номер" target="80/0/80" pan="-123.712" skinid="ActiveZone_30" url="{node31}" id="Point01" tilt="-3.03029"/>
+    </hotspots>
+    <media/>
+    <input width="2880" height="2880" leveltilesize="720" levelbias="0.4" overlap="1" leveltileurl="tiles/Set01my_preset_Orange_from_interion_23from_DSC_2267 Panorama/c%c_l%r_%y_%x.jpg">
+      <level width="2880" height="2880" preload="1"/>
+      <level width="1440" height="1440" preload="1"/>
+      <level width="360" preview="1" height="360" preload="1"/>
+      <preview color="0x808080"/>
+    </input>
+    <autorotate speed="0.080" nodedelay="180.00" startloaded="1" returntohorizon="10.000" delay="10.00" noderandom="1"/>
+    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="1" invertwheel="0" lockedwheel="1" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+  </panorama>
+  <panorama id="node33" hideabout="1">
+    <view fovmode="0" pannorth="0">
+      <start pan="183" fov="80" tilt="0"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata title="Номер 203" datetime="" description="" copyright="" tags="floor_2" author="" source="" comment="" info="" longitude="" latitude=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" textcolor="0x000000" background="1" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+      <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot title="Душевая" target="51/0/80" pan="27.6105" skinid="ActiveZone_-30" url="{node34}" id="Point01" tilt="-3.80875"/>
+      <hotspot title="Коридор" target="8/0/80" pan="13.6979" skinid="ActiveZone1" url="{node10}" id="Point02" tilt="-1.27028"/>
+    </hotspots>
+    <media/>
+    <input width="2880" height="2880" leveltilesize="720" levelbias="0.4" overlap="1" leveltileurl="tiles/Set23my_preset_Orange_from_interion_23from_DSC_2300 Panorama/c%c_l%r_%y_%x.jpg">
+      <level width="2880" height="2880" preload="1"/>
+      <level width="1440" height="1440" preload="1"/>
+      <level width="360" preview="1" height="360" preload="1"/>
+      <preview color="0x808080"/>
+    </input>
+    <autorotate speed="0.080" nodedelay="180.00" startloaded="1" returntohorizon="10.000" delay="10.00" noderandom="1"/>
+    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="1" invertwheel="0" lockedwheel="1" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+  </panorama>
+  <panorama id="node34" hideabout="1">
+    <view fovmode="0" pannorth="0">
+      <start pan="51" fov="80" tilt="0"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata title="Душевая 203" datetime="" description="" copyright="" tags="floor_2" author="" source="" comment="" info="" longitude="" latitude=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" textcolor="0x000000" background="1" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+      <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot title="Номер" target="214.5/0/80" pan="145.351" skinid="ActiveZone_30" url="{node33}" id="Point01" tilt="-1.78828"/>
+    </hotspots>
+    <media/>
+    <input width="2880" height="2880" leveltilesize="720" levelbias="0.4" overlap="1" leveltileurl="tiles/Set34my_preset_Orange_from_interion_23from_DSC_2333 Panorama/c%c_l%r_%y_%x.jpg">
+      <level width="2880" height="2880" preload="1"/>
+      <level width="1440" height="1440" preload="1"/>
+      <level width="360" preview="1" height="360" preload="1"/>
+      <preview color="0x808080"/>
+    </input>
+    <autorotate speed="0.080" nodedelay="180.00" startloaded="1" returntohorizon="10.000" delay="10.00" noderandom="1"/>
+    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="1" invertwheel="0" lockedwheel="1" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+  </panorama>
+  <panorama id="node35" hideabout="1">
+    <view fovmode="0" pannorth="0">
+      <start pan="185" fov="80" tilt="0"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata title="Номер 209" datetime="" description="" copyright="" tags="floor_2" author="" source="" comment="" info="" longitude="" latitude=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" textcolor="0x000000" background="1" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+      <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot title="Коридор" target="10/0/80" pan="21.3595" skinid="ActiveZone1" url="{node11}" id="Point01" tilt="-3.43808"/>
+      <hotspot title="Душевая" target="228/0/80" pan="47.3139" skinid="ActiveZone_-30" url="{node36}" id="Point02" tilt="-10.0632"/>
+    </hotspots>
+    <media/>
+    <input width="2880" height="2880" leveltilesize="720" levelbias="0.4" overlap="1" leveltileurl="tiles/Set47my_preset_Orange_from_interion_23from_DSC_2372 Panorama/c%c_l%r_%y_%x.jpg">
+      <level width="2880" height="2880" preload="1"/>
+      <level width="1440" height="1440" preload="1"/>
+      <level width="360" preview="1" height="360" preload="1"/>
+      <preview color="0x808080"/>
+    </input>
+    <autorotate speed="0.080" nodedelay="180.00" startloaded="1" returntohorizon="10.000" delay="10.00" noderandom="1"/>
+    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="1" invertwheel="0" lockedwheel="1" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+  </panorama>
+  <panorama id="node36" hideabout="1">
+    <view fovmode="0" pannorth="0">
+      <start pan="228" fov="80" tilt="0"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata title="Душевая 209" datetime="" description="" copyright="" tags="floor_2" author="" source="" comment="" info="" longitude="" latitude=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" textcolor="0x000000" background="1" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+      <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot title="Номер" target="213.5/0/80" pan="-40.6497" skinid="ActiveZone_30" url="{node35}" id="Point01" tilt="-7.86395"/>
+    </hotspots>
+    <media/>
+    <input width="2880" height="2880" leveltilesize="720" levelbias="0.4" overlap="1" leveltileurl="tiles/Set60my_preset_Orange_from_interion_23from_DSC_2411 Panorama/c%c_l%r_%y_%x.jpg">
+      <level width="2880" height="2880" preload="1"/>
+      <level width="1440" height="1440" preload="1"/>
+      <level width="360" preview="1" height="360" preload="1"/>
+      <preview color="0x808080"/>
+    </input>
+    <autorotate speed="0.080" nodedelay="180.00" startloaded="1" returntohorizon="10.000" delay="10.00" noderandom="1"/>
+    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="1" invertwheel="0" lockedwheel="1" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+  </panorama>
+  <panorama id="node37" hideabout="1">
+    <view fovmode="0" pannorth="0">
+      <start pan="90" fov="80" tilt="0"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata title="Номер 210" datetime="" description="" copyright="" tags="floor_2" author="" source="" comment="" info="" longitude="" latitude=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" textcolor="0x000000" background="1" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+      <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot title="Коридор" target="177.5/0/80" pan="-126.365" skinid="ActiveZone1" url="{node11}" id="Point01" tilt="-2.5369"/>
+      <hotspot title="Душевая" target="340/0/80" pan="-149.701" skinid="ActiveZone_30" url="{node38}" id="Point02" tilt="-6.50831"/>
+    </hotspots>
+    <media/>
+    <input width="2880" height="2880" leveltilesize="720" levelbias="0.4" overlap="1" leveltileurl="tiles/Set72my_preset_Orange_from_interion_23from_DSC_2450 Panorama/c%c_l%r_%y_%x.jpg">
+      <level width="2880" height="2880" preload="1"/>
+      <level width="1440" height="1440" preload="1"/>
+      <level width="360" preview="1" height="360" preload="1"/>
+      <preview color="0x808080"/>
+    </input>
+    <autorotate speed="0.080" nodedelay="180.00" startloaded="1" returntohorizon="10.000" delay="10.00" noderandom="1"/>
+    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="1" invertwheel="0" lockedwheel="1" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+  </panorama>
+  <panorama id="node38" hideabout="1">
+    <view fovmode="0" pannorth="0">
+      <start pan="340" fov="80" tilt="0"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata title="Душевая 210" datetime="" description="" copyright="" tags="floor_2" author="" source="" comment="" info="" longitude="" latitude=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" textcolor="0x000000" background="1" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+      <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot title="Номер" target="90/0/80" pan="-117.498" skinid="ActiveZone_-30" url="{node37}" id="Point01" tilt="-1.84342"/>
+    </hotspots>
+    <media/>
+    <input width="2880" height="2880" leveltilesize="720" levelbias="0.4" overlap="1" leveltileurl="tiles/Set01my_preset_Orange3from_DSC_2486 Panorama/c%c_l%r_%y_%x.jpg">
+      <level width="2880" height="2880" preload="1"/>
+      <level width="1440" height="1440" preload="1"/>
+      <level width="360" preview="1" height="360" preload="1"/>
+      <preview color="0x808080"/>
+    </input>
+    <autorotate speed="0.080" nodedelay="180.00" startloaded="1" returntohorizon="10.000" delay="10.00" noderandom="1"/>
+    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="1" invertwheel="0" lockedwheel="1" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+  </panorama>
+</tour>

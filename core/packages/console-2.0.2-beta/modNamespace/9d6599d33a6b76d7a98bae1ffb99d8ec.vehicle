@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'name',
+  'preserve_keys' => true,
+  'update_object' => true,
+  'namespace' => 'console',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'b491abbab0f441564087da8705fbaef8',
+  'package' => 'modx',
+  'class' => 'modNamespace',
+  'signature' => '9d6599d33a6b76d7a98bae1ffb99d8ec',
+  'native_key' => 'console',
+  'object' => '{"name":"console","path":"{core_path}components\\/console\\/","assets_path":"{assets_path}components\\/console\\/"}',
+);

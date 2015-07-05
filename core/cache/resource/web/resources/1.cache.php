@@ -81,11 +81,14 @@
 		<!--link rel="icon" href="images/favicon.ico" type="image/x-icon"-->
 		<!--link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" /-->
 		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/nivo-slider.css">
+		<link rel="stylesheet" href="css/nivosliderthemes/default/default.css">
 				<script type="text/javascript" src="/js/jquery-2.1.3.min.js"></script>
 		<script type="text/javascript" src="/js/gsap_min/TweenMax.min.js"></script>
 		<script type="text/javascript" src="/js/gsap_min/TimelineMax.min.js"></script>
 		<script type="text/javascript" src="/js/gsap_min/EasePack.min.js"></script>
 		<script type="text/javascript" src="/js/gsap_min/CSSPlugin.min.js"></script>
+		<script type="text/javascript" src="/js/jquery.nivo.slider.pack.js"></script>
 	</head>
 	<body>
 		<header>
@@ -101,7 +104,7 @@
 							<li><a href="otzyvy">Отзывы</a></li>
 							<li><a href="contact-us">Контакты</a></li>
 						</ul-->
-						<ul><li class="first active"><a href="http://1001coders.ru/" title="Отель Империал г. Брянск" >Главная</a></li>
+						<ul><li class="first active"><a href="http://imperial.ru/" title="Отель Империал г. Брянск" >Главная</a></li>
 <li><a href="virtualnyij-tur" title="Виртуальный тур" >Виртуальный тур</a></li>
 <li><a href="nomera-i-ceny" title="Номера и цены" >Номера и цены</a></li>
 <li><a href="bronirovanie" title="Бронирование номеров" >Бронирование</a></li>
@@ -121,10 +124,14 @@
 				</a>
 			</h1>
 		</div>
-		<div id="sliderblock"> 
-			<img class="sliderimg" src="images/slider-1.jpg" />
-		</div>
-
+		<div class= "slider-wrapper theme-default">
+    		<div id="sliderblock"> 
+    			<img class="sliderimg" src="images/slider-1.jpg" />
+    			<img class="sliderimg" src="images/slider-3.jpg" />
+    			<img class="sliderimg" src="images/slider-4.jpg" />
+    			<img class="sliderimg" src="images/slider-2.jpg" />
+    		</div>
+        </div>
         <div class="upcontent">
     <div class="container_12">
         <div class="title-1">Добро пожаловать!</div>
@@ -145,6 +152,8 @@
             </div>
                         <script type="text/javascript"> 
                 $(window).load(function(){
+                    $(\'#sliderblock\').hover(function(){ $(\'#upslider\').fadeOut(700); }, function(){ $(\'#upslider\').fadeIn(700); });
+                    $(\'#sliderblock\').nivoSlider({animSpeed: 1000, pauseTime: 5000});
                     $(\'nav > ul > li > a\').hover(
                         function(){
                             TweenMax.to(this, 1, {textShadow: "0px 0px 4px #ffffff 2px", color: "#ffffff"});
@@ -180,8 +189,9 @@
 		<script type="text/javascript" src="/js/gsap_min/TweenMax.min.js"></script>
 		<script type="text/javascript" src="/js/gsap_min/TimelineMax.min.js"></script>
 		<script type="text/javascript" src="/js/gsap_min/EasePack.min.js"></script>
-		<script type="text/javascript" src="/js/gsap_min/CSSPlugin.min.js"></script>',
-    '[[Wayfinder? &startId=\'0\' &level=`1`]]' => '<ul><li class="first active"><a href="http://1001coders.ru/" title="Отель Империал г. Брянск" >Главная</a></li>
+		<script type="text/javascript" src="/js/gsap_min/CSSPlugin.min.js"></script>
+		<script type="text/javascript" src="/js/jquery.nivo.slider.pack.js"></script>',
+    '[[Wayfinder? &startId=\'0\' &level=`1`]]' => '<ul><li class="first active"><a href="http://imperial.ru/" title="Отель Империал г. Брянск" >Главная</a></li>
 <li><a href="virtualnyij-tur" title="Виртуальный тур" >Виртуальный тур</a></li>
 <li><a href="nomera-i-ceny" title="Номера и цены" >Номера и цены</a></li>
 <li><a href="bronirovanie" title="Бронирование номеров" >Бронирование</a></li>
@@ -201,7 +211,7 @@
 							<li><a href="otzyvy">Отзывы</a></li>
 							<li><a href="contact-us">Контакты</a></li>
 						</ul-->
-						<ul><li class="first active"><a href="http://1001coders.ru/" title="Отель Империал г. Брянск" >Главная</a></li>
+						<ul><li class="first active"><a href="http://imperial.ru/" title="Отель Империал г. Брянск" >Главная</a></li>
 <li><a href="virtualnyij-tur" title="Виртуальный тур" >Виртуальный тур</a></li>
 <li><a href="nomera-i-ceny" title="Номера и цены" >Номера и цены</a></li>
 <li><a href="bronirovanie" title="Бронирование номеров" >Бронирование</a></li>
@@ -215,6 +225,8 @@
 ',
     '[[$onloadpagescript]]' => '            <script type="text/javascript"> 
                 $(window).load(function(){
+                    $(\'#sliderblock\').hover(function(){ $(\'#upslider\').fadeOut(700); }, function(){ $(\'#upslider\').fadeIn(700); });
+                    $(\'#sliderblock\').nivoSlider({animSpeed: 1000, pauseTime: 5000});
                     $(\'nav > ul > li > a\').hover(
                         function(){
                             TweenMax.to(this, 1, {textShadow: "0px 0px 4px #ffffff 2px", color: "#ffffff"});
@@ -245,7 +257,8 @@
 		<script type="text/javascript" src="/js/gsap_min/TweenMax.min.js"></script>
 		<script type="text/javascript" src="/js/gsap_min/TimelineMax.min.js"></script>
 		<script type="text/javascript" src="/js/gsap_min/EasePack.min.js"></script>
-		<script type="text/javascript" src="/js/gsap_min/CSSPlugin.min.js"></script>',
+		<script type="text/javascript" src="/js/gsap_min/CSSPlugin.min.js"></script>
+		<script type="text/javascript" src="/js/jquery.nivo.slider.pack.js"></script>',
           'locked' => false,
           'properties' => 
           array (
@@ -256,7 +269,8 @@
 		<script type="text/javascript" src="/js/gsap_min/TweenMax.min.js"></script>
 		<script type="text/javascript" src="/js/gsap_min/TimelineMax.min.js"></script>
 		<script type="text/javascript" src="/js/gsap_min/EasePack.min.js"></script>
-		<script type="text/javascript" src="/js/gsap_min/CSSPlugin.min.js"></script>',
+		<script type="text/javascript" src="/js/gsap_min/CSSPlugin.min.js"></script>
+		<script type="text/javascript" src="/js/jquery.nivo.slider.pack.js"></script>',
         ),
         'policies' => 
         array (
@@ -355,6 +369,8 @@
           'cache_type' => 0,
           'snippet' => '            <script type="text/javascript"> 
                 $(window).load(function(){
+                    $(\'#sliderblock\').hover(function(){ $(\'#upslider\').fadeOut(700); }, function(){ $(\'#upslider\').fadeIn(700); });
+                    $(\'#sliderblock\').nivoSlider({animSpeed: 1000, pauseTime: 5000});
                     $(\'nav > ul > li > a\').hover(
                         function(){
                             TweenMax.to(this, 1, {textShadow: "0px 0px 4px #ffffff 2px", color: "#ffffff"});
@@ -372,6 +388,8 @@
           'static_file' => '',
           'content' => '            <script type="text/javascript"> 
                 $(window).load(function(){
+                    $(\'#sliderblock\').hover(function(){ $(\'#upslider\').fadeOut(700); }, function(){ $(\'#upslider\').fadeIn(700); });
+                    $(\'#sliderblock\').nivoSlider({animSpeed: 1000, pauseTime: 5000});
                     $(\'nav > ul > li > a\').hover(
                         function(){
                             TweenMax.to(this, 1, {textShadow: "0px 0px 4px #ffffff 2px", color: "#ffffff"});

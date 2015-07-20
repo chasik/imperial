@@ -86,9 +86,10 @@
 				<script type="text/javascript" src="/js/jquery-2.1.3.min.js"></script>
 		<script type="text/javascript" src="/js/gsap_min/TweenMax.min.js"></script>
 		<script type="text/javascript" src="/js/gsap_min/TimelineMax.min.js"></script>
-		<script type="text/javascript" src="/js/gsap_min/EasePack.min.js"></script>
-		<script type="text/javascript" src="/js/gsap_min/CSSPlugin.min.js"></script>
+		<script type="text/javascript" src="/js/gsap_min/easing/EasePack.min.js"></script>
+		<script type="text/javascript" src="/js/gsap_min/plugins/CSSPlugin.min.js"></script>
 		<script type="text/javascript" src="/js/jquery.nivo.slider.pack.js"></script>
+		<script type="text/javascript" src="/js/main.js"></script>
 	</head>
 	<body>
 		<header>
@@ -124,14 +125,14 @@
 				</a>
 			</h1>
 		</div>
+		
 		<div class= "slider-wrapper theme-default">
     		<div id="sliderblock"> 
-    			<img class="sliderimg" src="images/slider-1.jpg" />
-    			<img class="sliderimg" src="images/slider-3.jpg" />
-    			<img class="sliderimg" src="images/slider-4.jpg" />
-    			<img class="sliderimg" src="images/slider-2.jpg" />
+                <img class="sliderimg" src="images/slider-1.jpg"  data-roomid="1" data-price="2000" data-discount="10" data-priceres="1800"/><img class="sliderimg" src="images/slider-2.jpg"  data-roomid="2" data-price="1600" data-discount="10" data-priceres="1440"/><img class="sliderimg" src="images/slider-3.jpg"  data-roomid="3" data-price="2000" data-discount="7" data-priceres="1860"/><img class="sliderimg" src="images/slider-4.jpg"  data-roomid="4" data-price="2000" data-discount="20" data-priceres="1600"/>
     		</div>
+            <div id="bookingbutton"><span id="bookingtitle">БРОНИРОВАТЬ</span><span id="price">0</span><span id="discount">1</span><span id="pricewithdiscount">2</span></div>
         </div>
+
         <div class="upcontent">
     <div class="container_12">
         <div class="title-1">Добро пожаловать!</div>
@@ -151,9 +152,34 @@
                 <div id="copydiv">ОТЕЛЬ "ИМПЕРИАЛ" &copy; 2013 - 2015</div>
             </div>
                         <script type="text/javascript"> 
+                var timer;
                 $(window).load(function(){
-                    $(\'#sliderblock\').hover(function(){ $(\'#upslider\').fadeOut(700); }, function(){ $(\'#upslider\').fadeIn(700); });
-                    $(\'#sliderblock\').nivoSlider({animSpeed: 1000, pauseTime: 5000});
+                    $(\'#sliderblock\').hover(function(){ 
+                            if (timer != undefined){ 
+                                clearTimeout(timer); timer = undefined; 
+                            } 
+                            $(\'#upslider\').fadeOut(700);
+                    }, function(){ 
+                        timer = setTimeout(function(){ 
+                            $(\'#upslider\').fadeIn(700); 
+                        }, 5000);
+                    });
+                    
+                    $(\'#sliderblock\').nivoSlider({
+                        animSpeed: 1000
+                        , pauseTime: 6000
+                        , controlNav: true
+                        , beforeChange: function(){ 
+                            $(\'#bookingbutton\').fadeOut(300); 
+                            
+                        }
+                        , afterChange: function(){ 
+                            sliderAfterChange();
+                            $(\'#bookingbutton\').fadeIn(300); 
+                        }
+                    });
+                    
+                    sliderAfterChange();
                     $(\'nav > ul > li > a\').hover(
                         function(){
                             TweenMax.to(this, 1, {textShadow: "0px 0px 4px #ffffff 2px", color: "#ffffff"});
@@ -188,9 +214,10 @@
     '[[$joinscripts]]' => '		<script type="text/javascript" src="/js/jquery-2.1.3.min.js"></script>
 		<script type="text/javascript" src="/js/gsap_min/TweenMax.min.js"></script>
 		<script type="text/javascript" src="/js/gsap_min/TimelineMax.min.js"></script>
-		<script type="text/javascript" src="/js/gsap_min/EasePack.min.js"></script>
-		<script type="text/javascript" src="/js/gsap_min/CSSPlugin.min.js"></script>
-		<script type="text/javascript" src="/js/jquery.nivo.slider.pack.js"></script>',
+		<script type="text/javascript" src="/js/gsap_min/easing/EasePack.min.js"></script>
+		<script type="text/javascript" src="/js/gsap_min/plugins/CSSPlugin.min.js"></script>
+		<script type="text/javascript" src="/js/jquery.nivo.slider.pack.js"></script>
+		<script type="text/javascript" src="/js/main.js"></script>',
     '[[Wayfinder? &startId=\'0\' &level=`1`]]' => '<ul><li class="first active"><a href="http://imperial.ru/" title="Отель Империал г. Брянск" >Главная</a></li>
 <li><a href="virtualnyij-tur" title="Виртуальный тур" >Виртуальный тур</a></li>
 <li><a href="nomera-i-ceny" title="Номера и цены" >Номера и цены</a></li>
@@ -223,10 +250,36 @@
 				</div>
 			</div>
 ',
+    '[[MainSliderPrice]]' => '<img class="sliderimg" src="images/slider-1.jpg"  data-roomid="1" data-price="2000" data-discount="10" data-priceres="1800"/><img class="sliderimg" src="images/slider-2.jpg"  data-roomid="2" data-price="1600" data-discount="10" data-priceres="1440"/><img class="sliderimg" src="images/slider-3.jpg"  data-roomid="3" data-price="2000" data-discount="7" data-priceres="1860"/><img class="sliderimg" src="images/slider-4.jpg"  data-roomid="4" data-price="2000" data-discount="20" data-priceres="1600"/>',
     '[[$onloadpagescript]]' => '            <script type="text/javascript"> 
+                var timer;
                 $(window).load(function(){
-                    $(\'#sliderblock\').hover(function(){ $(\'#upslider\').fadeOut(700); }, function(){ $(\'#upslider\').fadeIn(700); });
-                    $(\'#sliderblock\').nivoSlider({animSpeed: 1000, pauseTime: 5000});
+                    $(\'#sliderblock\').hover(function(){ 
+                            if (timer != undefined){ 
+                                clearTimeout(timer); timer = undefined; 
+                            } 
+                            $(\'#upslider\').fadeOut(700);
+                    }, function(){ 
+                        timer = setTimeout(function(){ 
+                            $(\'#upslider\').fadeIn(700); 
+                        }, 5000);
+                    });
+                    
+                    $(\'#sliderblock\').nivoSlider({
+                        animSpeed: 1000
+                        , pauseTime: 6000
+                        , controlNav: true
+                        , beforeChange: function(){ 
+                            $(\'#bookingbutton\').fadeOut(300); 
+                            
+                        }
+                        , afterChange: function(){ 
+                            sliderAfterChange();
+                            $(\'#bookingbutton\').fadeIn(300); 
+                        }
+                    });
+                    
+                    sliderAfterChange();
                     $(\'nav > ul > li > a\').hover(
                         function(){
                             TweenMax.to(this, 1, {textShadow: "0px 0px 4px #ffffff 2px", color: "#ffffff"});
@@ -256,9 +309,10 @@
           'snippet' => '		<script type="text/javascript" src="/js/jquery-2.1.3.min.js"></script>
 		<script type="text/javascript" src="/js/gsap_min/TweenMax.min.js"></script>
 		<script type="text/javascript" src="/js/gsap_min/TimelineMax.min.js"></script>
-		<script type="text/javascript" src="/js/gsap_min/EasePack.min.js"></script>
-		<script type="text/javascript" src="/js/gsap_min/CSSPlugin.min.js"></script>
-		<script type="text/javascript" src="/js/jquery.nivo.slider.pack.js"></script>',
+		<script type="text/javascript" src="/js/gsap_min/easing/EasePack.min.js"></script>
+		<script type="text/javascript" src="/js/gsap_min/plugins/CSSPlugin.min.js"></script>
+		<script type="text/javascript" src="/js/jquery.nivo.slider.pack.js"></script>
+		<script type="text/javascript" src="/js/main.js"></script>',
           'locked' => false,
           'properties' => 
           array (
@@ -268,12 +322,16 @@
           'content' => '		<script type="text/javascript" src="/js/jquery-2.1.3.min.js"></script>
 		<script type="text/javascript" src="/js/gsap_min/TweenMax.min.js"></script>
 		<script type="text/javascript" src="/js/gsap_min/TimelineMax.min.js"></script>
-		<script type="text/javascript" src="/js/gsap_min/EasePack.min.js"></script>
-		<script type="text/javascript" src="/js/gsap_min/CSSPlugin.min.js"></script>
-		<script type="text/javascript" src="/js/jquery.nivo.slider.pack.js"></script>',
+		<script type="text/javascript" src="/js/gsap_min/easing/EasePack.min.js"></script>
+		<script type="text/javascript" src="/js/gsap_min/plugins/CSSPlugin.min.js"></script>
+		<script type="text/javascript" src="/js/jquery.nivo.slider.pack.js"></script>
+		<script type="text/javascript" src="/js/main.js"></script>',
         ),
         'policies' => 
         array (
+          'web' => 
+          array (
+          ),
         ),
         'source' => 
         array (
@@ -342,6 +400,9 @@
         ),
         'policies' => 
         array (
+          'web' => 
+          array (
+          ),
         ),
         'source' => 
         array (
@@ -368,9 +429,34 @@
           'category' => 1,
           'cache_type' => 0,
           'snippet' => '            <script type="text/javascript"> 
+                var timer;
                 $(window).load(function(){
-                    $(\'#sliderblock\').hover(function(){ $(\'#upslider\').fadeOut(700); }, function(){ $(\'#upslider\').fadeIn(700); });
-                    $(\'#sliderblock\').nivoSlider({animSpeed: 1000, pauseTime: 5000});
+                    $(\'#sliderblock\').hover(function(){ 
+                            if (timer != undefined){ 
+                                clearTimeout(timer); timer = undefined; 
+                            } 
+                            $(\'#upslider\').fadeOut(700);
+                    }, function(){ 
+                        timer = setTimeout(function(){ 
+                            $(\'#upslider\').fadeIn(700); 
+                        }, 5000);
+                    });
+                    
+                    $(\'#sliderblock\').nivoSlider({
+                        animSpeed: 1000
+                        , pauseTime: 6000
+                        , controlNav: true
+                        , beforeChange: function(){ 
+                            $(\'#bookingbutton\').fadeOut(300); 
+                            
+                        }
+                        , afterChange: function(){ 
+                            sliderAfterChange();
+                            $(\'#bookingbutton\').fadeIn(300); 
+                        }
+                    });
+                    
+                    sliderAfterChange();
                     $(\'nav > ul > li > a\').hover(
                         function(){
                             TweenMax.to(this, 1, {textShadow: "0px 0px 4px #ffffff 2px", color: "#ffffff"});
@@ -387,9 +473,34 @@
           'static' => false,
           'static_file' => '',
           'content' => '            <script type="text/javascript"> 
+                var timer;
                 $(window).load(function(){
-                    $(\'#sliderblock\').hover(function(){ $(\'#upslider\').fadeOut(700); }, function(){ $(\'#upslider\').fadeIn(700); });
-                    $(\'#sliderblock\').nivoSlider({animSpeed: 1000, pauseTime: 5000});
+                    $(\'#sliderblock\').hover(function(){ 
+                            if (timer != undefined){ 
+                                clearTimeout(timer); timer = undefined; 
+                            } 
+                            $(\'#upslider\').fadeOut(700);
+                    }, function(){ 
+                        timer = setTimeout(function(){ 
+                            $(\'#upslider\').fadeIn(700); 
+                        }, 5000);
+                    });
+                    
+                    $(\'#sliderblock\').nivoSlider({
+                        animSpeed: 1000
+                        , pauseTime: 6000
+                        , controlNav: true
+                        , beforeChange: function(){ 
+                            $(\'#bookingbutton\').fadeOut(300); 
+                            
+                        }
+                        , afterChange: function(){ 
+                            sliderAfterChange();
+                            $(\'#bookingbutton\').fadeIn(300); 
+                        }
+                    });
+                    
+                    sliderAfterChange();
                     $(\'nav > ul > li > a\').hover(
                         function(){
                             TweenMax.to(this, 1, {textShadow: "0px 0px 4px #ffffff 2px", color: "#ffffff"});
@@ -402,6 +513,9 @@
         ),
         'policies' => 
         array (
+          'web' => 
+          array (
+          ),
         ),
         'source' => 
         array (
@@ -1222,9 +1336,74 @@ if ($wf->_config[\'ph\']) {
         ),
         'policies' => 
         array (
+          'web' => 
+          array (
+          ),
         ),
         'source' => 
         array (
+        ),
+      ),
+      'MainSliderPrice' => 
+      array (
+        'fields' => 
+        array (
+          'id' => 3,
+          'source' => 1,
+          'property_preprocess' => false,
+          'name' => 'MainSliderPrice',
+          'description' => '',
+          'editor_type' => 0,
+          'category' => 0,
+          'cache_type' => 0,
+          'snippet' => '$contentslider = \'\';
+    //var_dump($modx);
+    //$modx->db = new DBAPI(\'localhost\', \'srv44784_1001\', \'srv44784_1001\', \'WaNo11998811admi\', \'\');
+
+    $records = $modx->query(\'select * from modx_imperial_price\');
+    
+    foreach($records as $rec)
+    {
+        $contentslider .= \'<img class="sliderimg" src="\' . $rec["urlimage"] . \'"  data-roomid="\' . $rec["id"] . \'" data-price="\' . $rec["price"] . \'" data-discount="\' . $rec["discount"] . \'" data-priceres="\' . $rec["pricewithdiscount"] . \'"/>\';
+    }
+    
+    return $contentslider;',
+          'locked' => false,
+          'properties' => 
+          array (
+          ),
+          'moduleguid' => '',
+          'static' => false,
+          'static_file' => '',
+          'content' => '$contentslider = \'\';
+    //var_dump($modx);
+    //$modx->db = new DBAPI(\'localhost\', \'srv44784_1001\', \'srv44784_1001\', \'WaNo11998811admi\', \'\');
+
+    $records = $modx->query(\'select * from modx_imperial_price\');
+    
+    foreach($records as $rec)
+    {
+        $contentslider .= \'<img class="sliderimg" src="\' . $rec["urlimage"] . \'"  data-roomid="\' . $rec["id"] . \'" data-price="\' . $rec["price"] . \'" data-discount="\' . $rec["discount"] . \'" data-priceres="\' . $rec["pricewithdiscount"] . \'"/>\';
+    }
+    
+    return $contentslider;',
+        ),
+        'policies' => 
+        array (
+          'web' => 
+          array (
+          ),
+        ),
+        'source' => 
+        array (
+          'id' => 1,
+          'name' => 'Filesystem',
+          'description' => '',
+          'class_key' => 'sources.modFileMediaSource',
+          'properties' => 
+          array (
+          ),
+          'is_stream' => true,
         ),
       ),
     ),
@@ -1266,6 +1445,9 @@ if ($wf->_config[\'ph\']) {
         ),
         'policies' => 
         array (
+          'web' => 
+          array (
+          ),
         ),
         'source' => 
         array (

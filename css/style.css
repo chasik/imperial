@@ -100,9 +100,14 @@ nav > ul > li a{
 	z-index: 10;
 }
 
-.sliderimg{
+#upslider > h1 a img{
+	width: 22%;
+}
+
+.sliderimg:not(:first){
 	width: 100%;
 	z-index: 9;
+	display: none;
 }
 
 .upcontent{
@@ -179,4 +184,51 @@ footer {
 
 #copydiv{
     margin: 10px 0 0 0;
+}
+
+#bookingbutton{
+	 font-family: "Medieval",Arial,serif;
+		background-image: url('../img/bg12.png');
+		box-shadow: 3px 3px 10px #222222;
+	  width: 21vw;
+	  height: 4.1vw;
+		padding: 0.3vw;
+	  margin-left: 10%;
+	  margin-top: -18.3vh;
+	  position: absolute;
+		z-index: 12;
+		font-size: 1.4vw;
+		font-weight: bold;
+		color: #CCCCCC;
+		text-shadow: 1px 1px 3px #333333;
+}
+
+#bookingbutton:hover{
+		cursor: pointer;
+}
+
+#bookingtitle{
+	margin-top: 1.4vw;
+	position: absolute;
+}
+
+#price, #discount{
+	position: absolute;
+	margin-top: -0.1vw;
+	margin-left: 14vw;
+	font-size: 1.1vw;
+	font-weight: normal;
+	color: #999CCC;
+}
+
+#discount{
+	margin-left: 17.5vw;
+}
+
+#pricewithdiscount{
+	color: #eeeccc;
+	font-size: 2.2vw;
+	margin-left: 13.6vw;
+	margin-top: 1.9vw;
+	position: absolute;
 }

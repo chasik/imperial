@@ -97,3 +97,171 @@ Array
     [2] => Illegal mix of collations (cp1251_general_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
 )
 
+[2015-07-13 18:20:04] (ERROR @ /connectorsz/modx.config.js.php) Error caching lexicon topic lexicon/ru/core/resource
+[2015-07-14 17:01:04] (ERROR @ /connectorsz/modx.config.js.php) Error caching lexicon topic lexicon/ru/core/resource
+[2015-07-14 18:09:26] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): Entity: line 1: parser error : XML declaration allowed only at the start of the document
+[2015-07-14 18:09:26] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): &lt;?xml
+[2015-07-14 18:09:26] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string():      ^
+[2015-07-14 18:09:26] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): Entity: line 1: parser error : ParsePI: PI xml space expected
+[2015-07-14 18:09:26] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): &lt;?xml
+[2015-07-14 18:09:26] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string():      ^
+[2015-07-14 18:09:26] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): Entity: line 1: parser error : XML declaration allowed only at the start of the document
+[2015-07-14 18:09:26] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): Entity: line 1: parser error : ParsePI: PI xml never end ...
+[2015-07-14 18:09:26] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): Entity: line 1: parser error : XML declaration allowed only at the start of the document
+[2015-07-14 18:09:26] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): &lt;?xml
+[2015-07-14 18:09:26] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): &lt;?xml
+[2015-07-14 18:09:26] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): &lt;?xml
+[2015-07-14 18:09:26] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string():      ^
+[2015-07-14 18:09:26] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string():      ^
+[2015-07-14 18:09:26] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): Entity: line 1: parser error : Start tag expected, '&lt;' not found
+[2015-07-14 18:09:26] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string():      ^
+[2015-07-14 18:09:26] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): Entity: line 1: parser error : ParsePI: PI xml space expected
+[2015-07-14 18:09:26] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): &lt;?xml
+[2015-07-14 18:09:26] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): &lt;?xml
+[2015-07-14 18:09:26] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string():      ^
+[2015-07-14 18:09:26] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): Entity: line 1: parser error : ParsePI: PI xml space expected
+[2015-07-14 18:09:26] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string():      ^
+[2015-07-14 18:09:26] (ERROR @ /connectorsz/index.php) Could not connect to provider at: http://rest.modx.com/extras/
+[2015-07-14 18:09:26] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): Entity: line 1: parser error : ParsePI: PI xml never end ...
+[2015-07-14 18:09:26] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): &lt;?xml
+[2015-07-14 18:09:26] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): &lt;?xml
+[2015-07-14 18:09:26] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string():      ^
+[2015-07-14 18:09:26] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string():      ^
+[2015-07-14 18:09:26] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): Entity: line 1: parser error : Start tag expected, '&lt;' not found
+[2015-07-14 18:09:26] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): &lt;?xml
+[2015-07-14 18:09:26] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string():      ^
+[2015-07-14 18:09:26] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): Entity: line 1: parser error : ParsePI: PI xml never end ...
+[2015-07-14 18:09:26] (ERROR @ /connectorsz/index.php) Could not connect to provider at: http://rest.modx.com/extras/
+[2015-07-14 18:09:26] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/processors/workspace/packages/rest/getlist.class.php : 48) PHP warning: Invalid argument supplied for foreach()
+[2015-07-14 18:09:26] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): &lt;?xml
+[2015-07-14 18:09:26] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/processors/workspace/packages/rest/getlist.class.php : 52) PHP warning: Illegal string offset 'total'
+[2015-07-14 18:09:26] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string():      ^
+[2015-07-14 18:09:26] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): Entity: line 1: parser error : Start tag expected, '&lt;' not found
+[2015-07-14 18:09:26] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): &lt;?xml
+[2015-07-14 18:09:26] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string():      ^
+[2015-07-14 18:09:26] (ERROR @ /connectorsz/index.php) Could not connect to provider at: http://rest.modx.com/extras/
+[2015-07-14 18:09:26] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/processors/workspace/packages/rest/getlist.class.php : 48) PHP warning: Invalid argument supplied for foreach()
+[2015-07-14 18:09:26] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/processors/workspace/packages/rest/getlist.class.php : 52) PHP warning: Illegal string offset 'total'
+[2015-07-14 18:09:26] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): Entity: line 1: parser error : XML declaration allowed only at the start of the document
+[2015-07-14 18:09:26] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): &lt;?xml
+[2015-07-14 18:09:26] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string():      ^
+[2015-07-14 18:09:26] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): Entity: line 1: parser error : ParsePI: PI xml space expected
+[2015-07-14 18:09:26] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): &lt;?xml
+[2015-07-14 18:09:26] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string():      ^
+[2015-07-14 18:09:26] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): Entity: line 1: parser error : ParsePI: PI xml never end ...
+[2015-07-14 18:09:26] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): &lt;?xml
+[2015-07-14 18:09:26] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string():      ^
+[2015-07-14 18:09:26] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): Entity: line 1: parser error : Start tag expected, '&lt;' not found
+[2015-07-14 18:09:26] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): &lt;?xml
+[2015-07-14 18:09:26] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string():      ^
+[2015-07-14 18:09:26] (ERROR @ /connectorsz/index.php) Could not connect to provider at: http://rest.modx.com/extras/
+[2015-07-14 18:09:27] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): Entity: line 1: parser error : XML declaration allowed only at the start of the document
+[2015-07-14 18:09:27] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): &lt;?xml
+[2015-07-14 18:09:27] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string():      ^
+[2015-07-14 18:09:27] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): Entity: line 1: parser error : ParsePI: PI xml space expected
+[2015-07-14 18:09:27] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): &lt;?xml
+[2015-07-14 18:09:27] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string():      ^
+[2015-07-14 18:09:27] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): Entity: line 1: parser error : ParsePI: PI xml never end ...
+[2015-07-14 18:09:27] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): &lt;?xml
+[2015-07-14 18:09:27] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string():      ^
+[2015-07-14 18:09:27] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): Entity: line 1: parser error : Start tag expected, '&lt;' not found
+[2015-07-14 18:09:27] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): &lt;?xml
+[2015-07-14 18:09:27] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string():      ^
+[2015-07-14 18:09:27] (ERROR @ /connectorsz/index.php) Could not connect to provider at: http://rest.modx.com/extras/
+[2015-07-14 18:09:27] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): Entity: line 1: parser error : XML declaration allowed only at the start of the document
+[2015-07-14 18:09:27] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): &lt;?xml
+[2015-07-14 18:09:27] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string():      ^
+[2015-07-14 18:09:27] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): Entity: line 1: parser error : ParsePI: PI xml space expected
+[2015-07-14 18:09:27] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): &lt;?xml
+[2015-07-14 18:09:27] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string():      ^
+[2015-07-14 18:09:27] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): Entity: line 1: parser error : ParsePI: PI xml never end ...
+[2015-07-14 18:09:27] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): &lt;?xml
+[2015-07-14 18:09:27] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string():      ^
+[2015-07-14 18:09:27] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): Entity: line 1: parser error : Start tag expected, '&lt;' not found
+[2015-07-14 18:09:27] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): &lt;?xml
+[2015-07-14 18:09:27] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string():      ^
+[2015-07-14 18:09:27] (ERROR @ /connectorsz/index.php) Could not connect to provider at: http://rest.modx.com/extras/
+[2015-07-14 18:09:28] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): Entity: line 1: parser error : XML declaration allowed only at the start of the document
+[2015-07-14 18:09:28] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): &lt;?xml
+[2015-07-14 18:09:28] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string():      ^
+[2015-07-14 18:09:28] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): Entity: line 1: parser error : ParsePI: PI xml space expected
+[2015-07-14 18:09:28] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): &lt;?xml
+[2015-07-14 18:09:28] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string():      ^
+[2015-07-14 18:09:28] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): Entity: line 1: parser error : ParsePI: PI xml never end ...
+[2015-07-14 18:09:28] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): &lt;?xml
+[2015-07-14 18:09:28] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string():      ^
+[2015-07-14 18:09:28] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): Entity: line 1: parser error : Start tag expected, '&lt;' not found
+[2015-07-14 18:09:28] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): &lt;?xml
+[2015-07-14 18:09:28] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string():      ^
+[2015-07-14 18:09:28] (ERROR @ /connectorsz/index.php) Could not connect to provider at: http://rest.modx.com/extras/
+[2015-07-14 18:09:28] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): Entity: line 1: parser error : XML declaration allowed only at the start of the document
+[2015-07-14 18:09:28] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): &lt;?xml
+[2015-07-14 18:09:28] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string():      ^
+[2015-07-14 18:09:28] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): Entity: line 1: parser error : ParsePI: PI xml space expected
+[2015-07-14 18:09:28] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): &lt;?xml
+[2015-07-14 18:09:28] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string():      ^
+[2015-07-14 18:09:28] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): Entity: line 1: parser error : ParsePI: PI xml never end ...
+[2015-07-14 18:09:28] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): &lt;?xml
+[2015-07-14 18:09:28] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string():      ^
+[2015-07-14 18:09:28] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): Entity: line 1: parser error : Start tag expected, '&lt;' not found
+[2015-07-14 18:09:28] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): &lt;?xml
+[2015-07-14 18:09:28] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string():      ^
+[2015-07-14 18:09:28] (ERROR @ /connectorsz/index.php) Could not connect to provider at: http://rest.modx.com/extras/
+[2015-07-14 18:11:25] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): Entity: line 1: parser error : XML declaration allowed only at the start of the document
+[2015-07-14 18:11:25] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): &lt;?xml
+[2015-07-14 18:11:25] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string():      ^
+[2015-07-14 18:11:25] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): Entity: line 1: parser error : ParsePI: PI xml space expected
+[2015-07-14 18:11:25] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): &lt;?xml
+[2015-07-14 18:11:25] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string():      ^
+[2015-07-14 18:11:25] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): Entity: line 1: parser error : ParsePI: PI xml never end ...
+[2015-07-14 18:11:25] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): &lt;?xml
+[2015-07-14 18:11:25] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string():      ^
+[2015-07-14 18:11:25] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): Entity: line 1: parser error : Start tag expected, '&lt;' not found
+[2015-07-14 18:11:25] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): &lt;?xml
+[2015-07-14 18:11:25] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string():      ^
+[2015-07-14 18:11:25] (ERROR @ /connectorsz/index.php) Could not connect to provider at: http://rest.modx.com/extras/
+[2015-07-14 18:11:25] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/processors/workspace/packages/rest/getlist.class.php : 48) PHP warning: Invalid argument supplied for foreach()
+[2015-07-14 18:11:25] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/processors/workspace/packages/rest/getlist.class.php : 52) PHP warning: Illegal string offset 'total'
+[2015-07-14 18:11:26] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): Entity: line 1: parser error : XML declaration allowed only at the start of the document
+[2015-07-14 18:11:26] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): &lt;?xml
+[2015-07-14 18:11:26] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string():      ^
+[2015-07-14 18:11:26] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): Entity: line 1: parser error : ParsePI: PI xml space expected
+[2015-07-14 18:11:26] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): &lt;?xml
+[2015-07-14 18:11:26] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string():      ^
+[2015-07-14 18:11:26] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): Entity: line 1: parser error : ParsePI: PI xml never end ...
+[2015-07-14 18:11:26] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): &lt;?xml
+[2015-07-14 18:11:26] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string():      ^
+[2015-07-14 18:11:26] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): Entity: line 1: parser error : Start tag expected, '&lt;' not found
+[2015-07-14 18:11:26] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): &lt;?xml
+[2015-07-14 18:11:26] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string():      ^
+[2015-07-14 18:11:26] (ERROR @ /connectorsz/index.php) Could not connect to provider at: http://rest.modx.com/extras/
+[2015-07-14 18:11:26] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/processors/workspace/packages/rest/getlist.class.php : 48) PHP warning: Invalid argument supplied for foreach()
+[2015-07-14 18:11:26] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/processors/workspace/packages/rest/getlist.class.php : 52) PHP warning: Illegal string offset 'total'
+[2015-07-14 18:11:35] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): Entity: line 1: parser error : XML declaration allowed only at the start of the document
+[2015-07-14 18:11:35] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): &lt;?xml
+[2015-07-14 18:11:35] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string():      ^
+[2015-07-14 18:11:35] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): Entity: line 1: parser error : ParsePI: PI xml space expected
+[2015-07-14 18:11:35] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): &lt;?xml
+[2015-07-14 18:11:35] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string():      ^
+[2015-07-14 18:11:35] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): Entity: line 1: parser error : ParsePI: PI xml never end ...
+[2015-07-14 18:11:35] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): &lt;?xml
+[2015-07-14 18:11:35] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string():      ^
+[2015-07-14 18:11:35] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): Entity: line 1: parser error : Start tag expected, '&lt;' not found
+[2015-07-14 18:11:35] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): &lt;?xml
+[2015-07-14 18:11:35] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string():      ^
+[2015-07-14 18:11:35] (ERROR @ /connectorsz/index.php) Could not connect to provider at: http://rest.modx.com/extras/
+[2015-07-14 18:11:38] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): Entity: line 1: parser error : XML declaration allowed only at the start of the document
+[2015-07-14 18:11:38] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): &lt;?xml
+[2015-07-14 18:11:38] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string():      ^
+[2015-07-14 18:11:38] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): Entity: line 1: parser error : ParsePI: PI xml space expected
+[2015-07-14 18:11:38] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): &lt;?xml
+[2015-07-14 18:11:38] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string():      ^
+[2015-07-14 18:11:38] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): Entity: line 1: parser error : ParsePI: PI xml never end ...
+[2015-07-14 18:11:38] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): &lt;?xml
+[2015-07-14 18:11:38] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string():      ^
+[2015-07-14 18:11:38] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): Entity: line 1: parser error : Start tag expected, '&lt;' not found
+[2015-07-14 18:11:38] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string(): &lt;?xml
+[2015-07-14 18:11:38] (ERROR @ /media/sf_shared/1001coders.ru/core/model/modx/rest/modrestclient.class.php : 231) PHP warning: simplexml_load_string():      ^
+[2015-07-14 18:11:38] (ERROR @ /connectorsz/index.php) Could not connect to provider at: http://rest.modx.com/extras/
+[2015-07-16 04:35:27] (ERROR @ /connectorsz/modx.config.js.php) Error caching lexicon topic lexicon/ru/core/resource
+[2015-07-20 04:37:56] (ERROR @ /connectorsz/lang.js.php) Error caching lexicon topic lexicon/ru/core/resource

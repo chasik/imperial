@@ -8,9 +8,11 @@
     'virtualnyij-tur' => 2,
     'nomera-i-ceny' => 3,
     'bronirovanie' => 4,
-    'services' => 5,
+    'services/' => 5,
     'otzyvy' => 6,
     'contact-us' => 7,
+    'sauna' => 8,
+    'karaoke' => 9,
   ),
   'resourceMap' => 
   array (
@@ -23,6 +25,11 @@
       4 => 5,
       5 => 6,
       6 => 7,
+    ),
+    5 => 
+    array (
+      0 => 8,
+      1 => 9,
     ),
   ),
   'webLinkMap' => 
@@ -60,8 +67,8 @@
     ),
     'OnRichTextEditorRegister' => 
     array (
-      2 => '2',
       1 => '1',
+      2 => '2',
     ),
     'OnSnipFormPrerender' => 
     array (

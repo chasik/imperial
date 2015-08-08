@@ -265,3 +265,10 @@ Array
 [2015-07-14 18:11:38] (ERROR @ /connectorsz/index.php) Could not connect to provider at: http://rest.modx.com/extras/
 [2015-07-16 04:35:27] (ERROR @ /connectorsz/modx.config.js.php) Error caching lexicon topic lexicon/ru/core/resource
 [2015-07-20 04:37:56] (ERROR @ /connectorsz/lang.js.php) Error caching lexicon topic lexicon/ru/core/resource
+[2015-08-08 17:45:33] (ERROR @ /connectorsz/modx.config.js.php) Error caching lexicon topic lexicon/ru/core/resource
+[2015-08-08 18:36:53] (ERROR @ /index.php) Could not cache resource 1
+[2015-08-08 18:36:53] (ERROR @ /index.php) Could not cache resource 1
+[2015-08-08 19:07:55] (ERROR @ /connectorsz/modx.config.js.php) Error caching lexicon topic lexicon/ru/core/resource
+[2015-08-08 19:41:34] (ERROR @ /index.php) Error caching script elements/modsnippet/3
+[2015-08-08 19:41:35] (ERROR @ /index.php) Could not cache resource 1
+[2015-08-08 19:42:44] (ERROR @ /index.php) Could not cache resource 1
